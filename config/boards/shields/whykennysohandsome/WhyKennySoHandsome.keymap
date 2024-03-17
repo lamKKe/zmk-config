@@ -8,13 +8,13 @@
 
         default_layer{
             bindings = <
-                &kp_A   
-                &kp_A 
-                &kp_A 
-                &kp_A 
-                &kp_A 
-                &kp_A 
-                &kp_A 
+                &kp A   
+                &kp A 
+                &kp A 
+                &kp A 
+                &kp A 
+                &kp A 
+                &kp A 
                 &mo 1
             >;
         };
