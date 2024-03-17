@@ -8,10 +8,10 @@
 
         default_layer{
             bindings = <
-                &kp A   
-                &kp A 
-                &kp A 
-                &kp A 
+                &bt BT_SEL 0    
+                &bt BT_SEL 0  
+                &bt BT_SEL 0  
+                &bt BT_SEL 0  
                 &kp A 
                 &kp A 
                 &kp A 
