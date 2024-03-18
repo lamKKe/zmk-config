@@ -91,13 +91,13 @@
         righttwo_layer{
             bindings = <
 //1
-            &kp M
+            &kp G
 //2
-            &kp C
+            &kp Y
 //3
-            &kp W
+            &kp P
 //4
-            &kp F
+            &kp B
 //5
             &trans
 //6
