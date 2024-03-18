@@ -8,7 +8,16 @@
 #define LEFTTWO   2
 #define RIGHTTWO  3
 #define RIGHTONE  4
-
+#define RIGHTB    5
+/ {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        rightb_layer {
+            if-layers = <3 4>;
+            then-layer = <5>;
+        };
+    };
+};
 &lt {
     tapping-term-ms = <200>;
 };
@@ -114,6 +123,27 @@
             &trans
 //6
             &trans
+//7
+            &trans
+//8         
+            &trans
+                
+            >;
+        };
+        rightb_layer{
+            bindings = <
+//1
+            &kp ENTER
+//2
+            &kp TAB
+//3
+            &trans 
+//4
+            &kp ESC
+//5
+            &kp SPACE
+//6
+            &kp BACKSPACE
 //7
             &trans
 //8         
