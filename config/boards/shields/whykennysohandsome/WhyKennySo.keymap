@@ -10,7 +10,7 @@
 #define RIGHTONE  4
 
 &lt {
-    tapping-term-ms = <100>;
+    tapping-term-ms = <200>;
 };
 / {
     keymap{
