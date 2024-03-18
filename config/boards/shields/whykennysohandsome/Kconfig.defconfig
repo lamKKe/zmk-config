@@ -1,6 +1,6 @@
 if SHIELD_WHYKENNYSO
 
 config ZMK_KEYBOARD_NAME
-    default "WhyKennySoHandsome"
+    default "WhyKennySo"
 
 endif
