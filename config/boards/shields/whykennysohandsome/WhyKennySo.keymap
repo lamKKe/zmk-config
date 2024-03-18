@@ -100,27 +100,6 @@
                 
             >;
         };
-        righttwo_layer{
-            bindings = <
-//1
-            &kt G
-//2
-            &kt Y
-//3
-            &kt P
-//4
-            &kt B
-//5
-            &trans
-//6
-            &trans
-//7
-            &trans
-//8         
-            &trans
-                
-            >;
-        };
         rightone_layer{
             bindings = <
 //1
