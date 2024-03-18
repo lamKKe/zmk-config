@@ -8,27 +8,35 @@
 
         default_layer{
             bindings = <
-                &bt BT_SEL 0    
-                &bt BT_SEL 0  
-                &bt BT_SEL 0  
-                &bt BT_SEL 0  
-                &kp A 
-                &kp A 
-                &kp A 
-                &mo 1
+//1
+            &lt 1 A
+//2
+            &lt 1 B
+//3
+            &lt 1 C
+//4
+            &lt 1 D
+//5
+            &lt 1 E
+//6
+            &lt 1 F
+//7
+            &lt 1 G
+//8
+                
             >;
         };
 
-  bt_layer {
-      bindings = <
-         &none 
-       &none 
+        bt_layer {
+        bindings = <
         &none 
-         &none 
-       &bt BT_SEL 0 
-      &bt BT_SEL 1 
-         &bt BT_SEL 2 
-           &bt BT_CLR
+        &none 
+        &none 
+        &none 
+        &bt BT_SEL 0 
+        &bt BT_SEL 1 
+        &bt BT_SEL 2 
+        &bt BT_CLR
        >;
  };
     };
