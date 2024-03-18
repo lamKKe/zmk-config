@@ -141,9 +141,9 @@
 //4
             &kp Z
 //5
-            &kp SPACE
-//6
             &kp BACKSPACE
+//6
+            &kp SPACE
 //7
             &trans
 //8         
