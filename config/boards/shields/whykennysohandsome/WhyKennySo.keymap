@@ -40,13 +40,13 @@
         leftone_layer{
             bindings = <
 //1
-            &kt R
+            &kp R
 //2
-            &kt L
+            &kp L
 //3
-            &kt D
+            &kp D
 //4
-            &kt U
+            &kp U
 //5
             &trans
 //6
@@ -61,13 +61,13 @@
     lefttwo_layer{
             bindings = <
 //1
-            &kt M
+            &kp M
 //2
-            &kt C
+            &kp C
 //3
-            &kt W
+            &kp W
 //4
-            &kt F
+            &kp F
 //5
             &trans
 //6
@@ -82,13 +82,13 @@
         righttwo_layer{
             bindings = <
 //1
-            &kt M
+            &kp M
 //2
-            &kt C
+            &kp C
 //3
-            &kt W
+            &kp W
 //4
-            &kt F
+            &kp F
 //5
             &trans
 //6
@@ -103,13 +103,13 @@
         rightone_layer{
             bindings = <
 //1
-            &kt V
+            &kp V
 //2
-            &kt K
+            &kp K
 //3
-            &kt Q
+            &kp Q
 //4
-            &kt J
+            &kp J
 //5
             &trans
 //6
