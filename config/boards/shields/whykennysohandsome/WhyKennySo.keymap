@@ -9,12 +9,17 @@
 #define RIGHTTWO  3
 #define RIGHTONE  4
 #define RIGHTB    5
+#define BT        6
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
         rightb_layer {
             if-layers = <3 4>;
             then-layer = <5>;
+        };
+        bt_layer {
+            if-layers = <1 2 3 4>;
+            then-layer = <6>;
         };
     };
 };
@@ -144,6 +149,27 @@
             &kp BACKSPACE
 //6
             &kp SPACE
+//7
+            &trans
+//8         
+            &trans
+                
+            >;
+        };
+        bt_layer{
+            bindings = <
+//1
+            &bt BT_SEL 0
+//2
+            &bt BT_SEL 1
+//3
+            &bt BT_SEL 2
+//4
+            &bt BT_CLR
+//5
+            &trans
+//6
+            &trans
 //7
             &trans
 //8         
