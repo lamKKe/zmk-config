@@ -2,6 +2,16 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+
+#define DEFAULT 0
+#define LEFTONE   1
+#define LEFTTWO   2
+#define RIGHTTWO  3
+#define RIGHTONE  4
+
+&lt {
+    tapping-term-ms = <100>;
+};
 / {
     keymap{
         compatible = "zmk,keymap";
@@ -9,35 +19,129 @@
         default_layer{
             bindings = <
 //1
-            &lt 1 A
-//2
-            &lt 1 B
-//3
-            &lt 1 C
-//4
-            &lt 1 D
-//5
             &lt 1 E
+//2
+            &lt 1 T
+//3
+            &lt 1 A
+//4
+            &lt 1 O
+//5
+            &lt 1 I
 //6
-            &lt 1 F
+            &lt 2 N
 //7
-            &lt 1 G
-//8
+            &lt 3 S
+//8         
+            &lt 4 H
+                
+            >;
+        };
+        leftone_layer{
+            bindings = <
+//1
+            &kt R
+//2
+            &kt L
+//3
+            &kt D
+//4
+            &kt U
+//5
+            &trans
+//6
+            &trans
+//7
+            &trans
+//8         
+            &trans
+                
+            >;
+        };
+    lefttwo_layer{
+            bindings = <
+//1
+            &kt M
+//2
+            &kt C
+//3
+            &kt W
+//4
+            &kt F
+//5
+            &trans
+//6
+            &trans
+//7
+            &trans
+//8         
+            &trans
+                
+            >;
+        };
+        righttwo_layer{
+            bindings = <
+//1
+            &kt M
+//2
+            &kt C
+//3
+            &kt W
+//4
+            &kt F
+//5
+            &trans
+//6
+            &trans
+//7
+            &trans
+//8         
+            &trans
+                
+            >;
+        };
+        righttwo_layer{
+            bindings = <
+//1
+            &kt G
+//2
+            &kt Y
+//3
+            &kt P
+//4
+            &kt B
+//5
+            &trans
+//6
+            &trans
+//7
+            &trans
+//8         
+            &trans
+                
+            >;
+        };
+        rightone_layer{
+            bindings = <
+//1
+            &kt V
+//2
+            &kt K
+//3
+            &kt Q
+//4
+            &kt J
+//5
+            &trans
+//6
+            &trans
+//7
+            &trans
+//8         
+            &trans
                 
             >;
         };
 
-        bt_layer {
-        bindings = <
-        &none 
-        &none 
-        &none 
-        &none 
-        &bt BT_SEL 0 
-        &bt BT_SEL 1 
-        &bt BT_SEL 2 
-        &bt BT_CLR
-       >;
- };
     };
 };
