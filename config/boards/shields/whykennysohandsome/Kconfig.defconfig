@@ -1,4 +1,4 @@
-if SHIELD_WHYKENNYSOHANDSOME
+if SHIELD_WHYKENNYSO
 
 config ZMK_KEYBOARD_NAME
     default "WhyKennySoHandsome"
